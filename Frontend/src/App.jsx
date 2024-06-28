@@ -6,6 +6,7 @@ import HomePage from "./Pages/LandingPage/HomePage";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Login from "./Pages/Authentication/Login";
 import SignUp from "./Pages/Authentication/SignUp";
+import Onboarding from "./Pages/Onboarding/Onboarding";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           {/* Authentication  */}
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/onboarding" element={<Onboarding />} />
       </Routes>
     </BrowserRouter>
   );
